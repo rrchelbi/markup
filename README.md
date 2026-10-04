@@ -44,8 +44,6 @@ func main() {
 	http.Handle("/", mhttp.HandlerFunc(index))
 	log.Fatal(http.ListenAndServe("localhost:8080", nil))
 }
-
-)
 ```
 
 ## Packages
